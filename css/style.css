@@ -5,6 +5,7 @@ ol,ul{list-style:none;margin:0px;padding:0px;}
 blockquote,q{quotes:none;}
 blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
 table{border-collapse:collapse;border-spacing:0;}
+
 /* start editing from here */
 a{text-decoration:none;}
 .txt-rt{text-align:right;}/* text align right */
@@ -21,14 +22,15 @@ a{text-decoration:none;}
 nav.vertical ul li{	display:block;}/* vertical menu */
 nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
 img{max-width:100%;}
+
 /*end reset*/
 body{
 	background:#F8FBFB;
 }
 .wrap{
-	width:70%;
+	width:80%;
 	margin:0 auto;
-}
+}	
 .header{
 	background:url(../images/header-bg.png);
 }
@@ -49,7 +51,7 @@ body{
 }
 .top-nav ul li a{
 	font-family: 'Ropa Sans', sans-serif;
-	background:#3391E7;
+	background:#0adfee;
 	color: #fff;
 	text-transform: uppercase;
 	padding: 30px;

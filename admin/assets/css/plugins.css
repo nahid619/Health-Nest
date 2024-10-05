@@ -271,7 +271,7 @@ img-crop {
 .dd-item > button:before {
   content: "\e649" !important;
   font-family: "themify";
-  color: #007AFF;
+  color: #45DFB1;
 }
 
 .dd-item > button[data-action="collapse"]:before {
@@ -482,7 +482,7 @@ img-crop {
 }
 
 .event-job .fc-content > span:first-child:before, .event-category.event-job:before {
-  color: #007AFF !important;
+  color: #45DFB1 !important;
 }
 
 .event-off-site-work .fc-content > span:first-child:before, .event-category.event-off-site-work:before {

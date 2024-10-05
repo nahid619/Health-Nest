@@ -109,7 +109,7 @@ button {
 }
 
 a {
-  color: #007AFF;
+  color: #0ad1c8;
 }
 a:hover, a:focus, a:active {
   color: #004999;
@@ -126,7 +126,8 @@ h3, h4, h5 {
 h1, h2, h3, h4, h5 {
   font-weight: 300;
   margin-top: 0;
-  color: #5b5b60;
+  color: #042f2e;
+  font-weight: bold;
 }
 .text-bold h1, h1.text-bold, h1 .text-bold, .text-bold h2, h2.text-bold, h2 .text-bold, .text-bold h3, h3.text-bold, h3 .text-bold, .text-bold h4, h4.text-bold, h4 .text-bold, .text-bold h5, h5.text-bold, h5 .text-bold {
   font-weight: 600;
@@ -2592,7 +2593,7 @@ h1.text-extra-large {
 }
 
 .text-primary {
-  color: #007AFF !important;
+  color: #0ad1c8 !important;
 }
 
 .text-grey {
@@ -4573,10 +4574,11 @@ fieldset .form-group {
   margin-left: 0;
   margin-right: 0;
 }
+
 fieldset legend {
   background: inherit;
   font-family: "Lato", sans-serif;
-  color: #007AFF;
+  color: #14919B;
   font-size: 15px;
   left: 10px;
   padding: 0 10px;
@@ -4794,7 +4796,7 @@ span.input-help > input {
 
 .input-icon > [class*="fa-"], .input-icon > [class*="ti-"] {
   bottom: 0;
-  color: #007AFF;
+  color:  #14919B;
   display: inline-block;
   left: 5px;
   line-height: 35px;
@@ -5808,9 +5810,9 @@ input[type="radio"], input[type="checkbox"] {
 }
 
 .btn-primary {
-  background-color: #007AFF;
+  background-color: #45DFB1;
   border-color: #007AFF;
-  color: #ffffff;
+  color: #232323;
 }
 .open .btn-primary.dropdown-toggle {
   background-color: #4da2ff;
@@ -5835,12 +5837,12 @@ input[type="radio"], input[type="checkbox"] {
   color: #ffffff;
 }
 .btn-primary.btn-o {
-  border: 1px solid #007AFF;
-  color: #007AFF;
+  border: 2px solid #14919B;
+  color: #0ad1c8;
 }
 .btn-primary.btn-o:hover {
-  color: #3395ff;
-  border-color: #3395ff;
+  color: #14919B;
+  border-color: #0ad1c8;
   background: none !important;
 }
 .btn-primary.btn-o:active, .btn-primary.btn-o.active, .btn-primary.btn-o.active:focus, .btn-primary.btn-o:active:focus, .btn-primary.btn-o:active:hover {
@@ -9360,12 +9362,12 @@ nav.links a {
 /*  Login
 /* ---------------------------------------------------------------------- */
 .main-login {
-  margin-top: 0;
+  margin-top: 10%;
   position: relative;
 }
 @media (max-width: 991px) {
   .main-login {
-    margin-top: 65px;
+    margin-top: 10%;
   }
 }
 .main-login .logo {
@@ -11220,7 +11222,7 @@ td.small-width {
   margin: 0 15px;
 }
 #page-title h1 {
-  color: #333;
+  color: #213A57;
   font-size: 28px;
   font-weight: 300;
   letter-spacing: 1px;
